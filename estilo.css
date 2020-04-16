@@ -1,0 +1,93 @@
+body {
+    background-color:rgb(200,200,200);
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    background-color: rgba(0, 139, 232);
+    border: black 1px solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+    text-align: center;
+    color: white;
+}
+
+#conteudo{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+a {
+    color: blue;
+    text-decoration: unset;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+
+}
+
+#imLogo{
+    width: 100%;
+    
+}
+
+#tituloDestaque{
+    background-color: rgba(0, 139, 232);
+    border: black 1px solid;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+    text-align: center;
+    color: white;
+}
+
+#noticias{
+    // display: flex;
+    // justify-content: space-around;
+}
+
+.noticiaDestaque{
+    display: flex;
+    justify-content: center;
+    border: gray 1px solid;
+    margin: 10px;
+    box-shadow: grey 2px 2px 5px;
+}
+
+.imgNoticia{
+    width: 30%;
+    height: 30%;
+    margin: 1%;
+}
+
+h3{
+    text-align: center;
+}
+
+.noticiaTexto{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#rodape{
+    display: flex;
+    justify-content: end;
+    background-color: rgba(36, 113, 175, 0.76);
+    margin-top: 10px;
+    border: black 1px solid;
+    
+}
+
+#redesSociais{
+    margin-right: 50px;
+    margin-top: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
