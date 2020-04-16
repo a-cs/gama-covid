@@ -5,7 +5,6 @@ body {
 
 #cabecalho {
     background-color: rgba(0, 139, 232);
-    border: black 1px solid;
     border-radius: 10px;
     margin-bottom: 30px;
     box-shadow: black 2px 2px 5px;
@@ -29,7 +28,13 @@ a {
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
+    
 
+}
+#navbar a{
+    display: block;
+    padding: 20px;
+    
 }
 
 #imLogo{
@@ -39,7 +44,6 @@ a {
 
 #tituloDestaque{
     background-color: rgba(0, 139, 232);
-    border: black 1px solid;
     border-radius: 10px;
     margin-bottom: 30px;
     box-shadow: black 2px 2px 5px;
@@ -48,32 +52,46 @@ a {
 }
 
 #noticias{
-    // display: flex;
-    // justify-content: space-around;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     
+     margin: 0 auto;
+     //flex-basis: 60%;
 }
+
 
 .noticiaDestaque{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border: gray 1px solid;
     margin: 10px;
     box-shadow: grey 2px 2px 5px;
+    width: 48%;
+    height: 100%;
+    
+    flex-basis: 40%;
+    flex-wrap: wrap;
+    
 }
 
 .imgNoticia{
-    width: 30%;
-    height: 30%;
-    margin: 1%;
+    //width: 50%;
+    //height: 100%;
+    margin : 1%;
+    flex-basis: 50%;
+    
 }
 
-h3{
-    text-align: center;
-}
+
+
 
 .noticiaTexto{
-    margin-left: 10px;
-    margin-right: 10px;
+    //margin-left: 2%;
+    margin-right: 2%;
     text-align: justify;
+    flex-basis: 46%;
+    
 }
 
 #rodape{
