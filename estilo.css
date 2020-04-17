@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(200,200,200);
+    background-color:rgb(25, 163, 255);
     font-family: sans-serif;
 }
 
@@ -18,9 +18,24 @@ label.mylogo{
     padding: 0 100px;
     font-weight: bold;
 }
-#logo{
-    position: relative;
-    //text-align: center;
+
+.title{
+    padding-top: 150px;
+    /*padding-bottom: 100px;
+    padding-left: auto; */
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(to top, rgb(25, 163, 255) 5%, transparent 100%), rgb(25, 163, 255) url("Imagens/logo.jpg") no-repeat center / cover;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 90px;
+    padding-bottom: -50%;
+}
+
+.title p{
+    font-size: 35px;
 }
 
 #imLogo{
@@ -31,14 +46,14 @@ label.mylogo{
 
 .mylogo_over{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
+    font-size: 90px;
     line-height: 80px;
     //padding: 0 100px;
     font-weight: bold;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 27%;
+    transform: translate(0%, -50%);
 }
 
 .mylogo_over2{
@@ -48,7 +63,7 @@ label.mylogo{
     //padding: 0 100px;
     //font-weight: bold;
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
