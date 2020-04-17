@@ -72,9 +72,9 @@ nav ul li a:hover{
 
 
 #imLogo{
-    width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
     
 }
 
@@ -161,8 +161,8 @@ nav ul li a:hover{
 }
 
 #rodape{
-    display: flex;
-    justify-content: end;
+    //display: flex;
+    //justify-content: end;
     background-color: rgba(36, 113, 175, 0.76);
     margin-top: 10px;
     border: black 1px solid;
@@ -175,8 +175,13 @@ nav ul li a:hover{
     margin-top: 10px;
     color: white;
     padding-bottom: 10px;
+    //float: right;
     
     
+}
+
+#redesSociais img{
+    //float: right;
 }
 
 #redesSociais a:hover{
