@@ -253,18 +253,20 @@ nav ul li a:hover{
 #contato input{
     width: 100%;
     display: block;
-    padding: 30px;
-    background-color:rgb(25, 163, 255, .7);
+    padding: 50px;
+    background-color:rgba(191, 191, 191, .4);
+    border-radius: 10px;
     
     
 
 }
 ::placeholder{
-    color: white;
+    color: grey;
 }
 
 #contato button{
     width: 100%;
     padding: 30px;
     font-size: 40px;
+    border-radius: 10px;
 }
