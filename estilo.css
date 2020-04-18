@@ -234,3 +234,37 @@ nav ul li a:hover{
     height: 30%;
     //border: rgba(128, 128, 128, 0.9) 1px solid;
 }
+
+#contato{
+    //display: flex;
+    //justify-content: center;
+    //flex-wrap: wrap;
+    text-align: left;
+    
+    margin: 0 auto;
+    
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 40px;
+    font-size: 35px;
+    //color: rgba(128, 128, 128, 0.9);
+}
+
+#contato input{
+    width: 100%;
+    display: block;
+    padding: 30px;
+    background-color:rgb(25, 163, 255, .7);
+    
+    
+
+}
+::placeholder{
+    color: white;
+}
+
+#contato button{
+    width: 100%;
+    padding: 30px;
+    font-size: 40px;
+}
