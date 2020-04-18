@@ -209,3 +209,28 @@ nav ul li a:hover{
     margin-left: 10px;
     float: right;
 }
+
+#sobre{
+    //display: flex;
+    //justify-content: center;
+    //flex-wrap: wrap;
+    text-align: left;
+    
+    margin: 0 auto;
+    
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 40px;
+    font-size: 35px;
+    color: rgba(128, 128, 128, 0.9);
+}
+#sobre ul{
+    list-style-type: disc;
+    margin-left: 5%;
+}
+
+#sobre img{
+    float: right;
+    height: 30%;
+    //border: rgba(128, 128, 128, 0.9) 1px solid;
+}
