@@ -4,4 +4,4 @@ Flatten the Curve é um projeto para o Programa Hiring Coders da Gama Academy, o
 Link para acesso:
 https://gama-covid.netlify.app/
 
-![GitHub Logo](/imagens/site.jpg)
+![site](https://user-images.githubusercontent.com/63657280/79702455-52cd5c80-827b-11ea-946f-c0af9a94a1de.JPG)
